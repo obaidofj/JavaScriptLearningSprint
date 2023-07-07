@@ -1,0 +1,18 @@
+.chars-details {
+    margin-left: 20px;
+  }
+  
+  .chars-details h2 {
+    margin-bottom: 5px;
+  }
+  
+  .chars-details p {
+    margin: 0;
+    line-height: 1.5;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
