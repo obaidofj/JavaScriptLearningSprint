@@ -15,7 +15,7 @@ async function fetchChars() {
       const li = document.createElement('li');
       li.innerHTML = `
         <img src="${character.image}" alt="${character.name}">
-        <div class="character-details">
+        <div class="chars-details">
           <h2>${character.name}</h2>
           <p><strong>Location:</strong> ${character.location.name}</p>
           <p><strong>Species:</strong> ${character.species}</p>
