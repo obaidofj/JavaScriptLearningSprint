@@ -12,12 +12,12 @@ const complexCoercion = (input) => {
 
   
 console.log("complexCoercion(42) :",complexCoercion(42)); // Output: true
-console.log("complexCoercion(42) :",complexCoercion(0)); // Output: false
-console.log("complexCoercion(42) :",complexCoercion(-10)); // Output: true
-console.log("complexCoercion(42) :",complexCoercion("Hello")); // Output: true
-console.log("complexCoercion(42) :",complexCoercion("")); // Output: false
-console.log("complexCoercion(42) :",complexCoercion(null)); // Output: false
-console.log("complexCoercion(42) :",complexCoercion(undefined)); // Output: false
-console.log("complexCoercion(42) :",complexCoercion(true)); // Output: true
-console.log("complexCoercion(42) :",complexCoercion(false)); // Output: false
-console.log("complexCoercion(42) :",complexCoercion({ a: 42 })); // Output: { a: 42 }
+console.log("complexCoercion(0) :",complexCoercion(0)); // Output: true
+console.log("complexCoercion(-10) :",complexCoercion(-10)); // Output: true
+console.log("complexCoercion('Hello') :",complexCoercion("Hello")); // Output: true
+console.log("complexCoercion('') :",complexCoercion("")); // Output: false
+console.log("complexCoercion(null) :",complexCoercion(null)); // Output: false
+console.log("complexCoercion(undefined) :",complexCoercion(undefined)); // Output: false
+console.log("complexCoercion(true) :",complexCoercion(true)); // Output: true
+console.log("complexCoercion(false) :",complexCoercion(false)); // Output: false
+console.log("complexCoercion({ a: 42 }) :",complexCoercion({ a: 42 })); // Output: { a: 42 }
