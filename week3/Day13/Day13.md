@@ -1,4 +1,4 @@
-# Day 11 :
+# Day 13 :
  this day about high order functions which take functions as argument and this make them as more powerfull than normal functions and about clousurs which are functions that keep access for variables.
 
 

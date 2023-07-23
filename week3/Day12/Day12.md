@@ -1,4 +1,4 @@
-# Day 11 :
+# Day 12 :
  this day about Static types which require variables to be explicitly declared with a specific data type before they can be used or when they first used
  and about scope and type of scopes and which scope of a varaible
 
